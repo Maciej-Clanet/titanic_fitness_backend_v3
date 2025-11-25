@@ -9,3 +9,7 @@ class RegisterForm(BaseModel):
 class LoginForm(BaseModel): 
     email: str 
     password: str 
+
+class UserPublicData(BaseModel):
+    email: str
+    username: str
